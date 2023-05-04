@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "sass": "^1.62.1",
     "webpack-cli": "^5.0.2"
   }
 }
