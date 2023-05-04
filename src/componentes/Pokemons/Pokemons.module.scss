@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap") format('truetype');
+}
+
+
+
+
+
+
+.seçãoPokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 auto;
+    
+}
+.listaPokemons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0.5em;
+    width: 220px; 
+    padding: 0; 
+    border: 2px solid #ccc;
+    height: 220px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    
+    
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+        .indentificadorPokemon{
+            opacity: 0.6;
+        }
+
+        .pokemonsImagens{
+        width: 100px;
+        margin-left: 0.5em;
+        }
+    .types{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        > span {
+        color: #fff;
+        background-color: var(--cor-principal);
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        user-select: none;
+        text-align: center;
+        margin: auto 0.1em;
+        
+        }
+    }    
+    }   
+}
+
+.listaPokemons:hover {
+    transform: matrix(1, 0, 0, 1, 0, -10);
+}
+
+.container2 {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    li::first-letter {
+        text-transform: uppercase;
+    }
+    .divisão {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    h3{
+        font-weight: 700;
+        margin-bottom: 1.5em;
+        font-size: 1em;
+        text-align: center;
+        
+    }
+    h3::first-letter{
+        text-transform: uppercase;
+    }
+    .estatisticas {
+        margin-bottom: 0.2em;
+        text-align: center;
+    }
+    .abilities{
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    > span {
+        
+        color: #fff;
+        background-color: var(--cor-principal);
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        user-select: none;
+        margin: auto 0.1em
+    }
+}

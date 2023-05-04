@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    align-items: center;
+    button {
+        width: 70px;
+        height: 60px;
+        background-color: var(--cor-principal);
+        color: var(--cor-branca);
+        border-radius: 50%;
+        border: 1px solid var(--cor-branca);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+}
